@@ -22,5 +22,6 @@ int main()
     scanf("%d", &n);
 
     if(fibonacci(n) > 0) printf("Numero pra seguencia de fib(%d) eh %d\n", n, fibonacci(n));
+    else printf("Numero n invalido!");
     return 0;
 }
